@@ -1,7 +1,7 @@
 body {
   font-family: Helvetica, sans-serif;
   background-color: #333;
-  color: #f33;
+  color:#f33;
   font-size: 18pt;
   margin: 3em 5em;
   text-align: center;
@@ -13,9 +13,13 @@ h1 {
 
 h1 > p {
   font-family: "Times New Roman", Times, serif;
-  color: yellow;
   margin: 0;
 }
+
+h1 > p:hover {
+  transform-style;
+  color: yellow;
+  }
 
 h2 {
     margin: 3em;
