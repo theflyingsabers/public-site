@@ -14,11 +14,12 @@ h1 {
 h1 > p {
   font-family: "Times New Roman", Times, serif;
   margin: 0;
+  color: yellow;
 }
 
 h1 > p:hover {
   transform-style;
-  color: yellow;
+  color:blue;
   }
 
 h2 {
