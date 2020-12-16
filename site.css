@@ -20,17 +20,17 @@ h1 > p {
 h1 > p:hover {
   transform-style;
   color:blue;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
   }
 
 h2 {
     margin: 3em;
 }
 
-h3 {
-    color: rgb(170, 162, 56);
-    font-size: 0.75em;
-    margin: 5em;
+h2:hover {
+  transform-style;
+  color: limegreen;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 footer {
