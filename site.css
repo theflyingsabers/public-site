@@ -20,6 +20,7 @@ h1 > p {
 h1 > p:hover {
   transform-style;
   color:blue;
+  font-family: 'Courier New', Courier, monospace;
   }
 
 h2 {
