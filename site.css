@@ -31,10 +31,7 @@ main {
 
 main > nav {
   flex: 0 0 auto;
-}
-
-main > nav2 {
-  text-align: left;
+  margin-left: 15em;
 }
 
 main > div {
