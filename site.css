@@ -26,11 +26,15 @@ h1 > p:hover {
 
 main {
   display: flex;
+  color: limegreen;
 }
 
 main > nav {
   flex: 0 0 auto;
-  margin-right: 1em;
+}
+
+main > nav2 {
+  text-align: left;
 }
 
 main > div {
@@ -53,5 +57,5 @@ footer {
 }
 
 .no-more {
-  text-decoration: line-through;
+  color: red;
 }
