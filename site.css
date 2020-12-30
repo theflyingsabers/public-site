@@ -44,7 +44,7 @@ h2:not(:first-of-type) {
 }
 
 h2 {
-  color:sandybrown;
+  color:limegreen;
 }
 
 p {
@@ -52,7 +52,7 @@ p {
 }
 
 h2:not(:first-of-type):hover {
-  color: limegreen;
+  color: purple;
 }
 
 footer {
