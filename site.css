@@ -1,7 +1,8 @@
 body {
   font-family: Helvetica, sans-serif;
-  background-image: url("night-sky.jpg");
+  /* background-image: url("night-sky.jpg"); */
   background-repeat: no-repeat;
+  background-color: #333;
   background-position: right top;
   color: #f33;
   font-size: 18pt;
@@ -31,18 +32,26 @@ main {
 
 main > nav {
   flex: 0 0 auto;
-  margin-left: 15em;
+  margin: 2em auto;
 }
 
 main > div {
   flex: 1 1 auto;
 }
 
-h2 {
-  margin: 3em;
+h2:not(:first-of-type) {
+  margin-top: 3em;
 }
 
-h2:hover {
+h2 {
+  color:sandybrown;
+}
+
+p {
+  color: cyan;
+}
+
+h2:not(:first-of-type):hover {
   color: limegreen;
 }
 
