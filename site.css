@@ -39,12 +39,9 @@ main > div {
   flex: 1 1 auto;
 }
 
-h2:not(:first-of-type) {
-  margin-top: 3em;
-}
-
 h2 {
   color: limegreen;
+  margin-top: 3em;
 }
 
 p {
