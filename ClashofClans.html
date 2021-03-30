@@ -12,39 +12,65 @@
 
     <link rel="stylesheet" type="text/css" href="site.css" />
 
-    <title>TheFlyingSabers</title>  
+    <title>TheFlyingSabers</title>
   </head>
-<h1>
-    Clash of Clans
-   </h1>
+  <body>
+    <h1>Clash of Clans</h1>
 
-   <p>
-   This is the first place <span class="username">Booyahboy</span> made TheFlyingSabers
-   after <span class="no-more">Star Wars Commander</span>
-   shut down. The squad's leadership now lies 
-   in the hands of <span class="username">Hades</span>, who was also 
-   part of TheFlyingSabers on <span class="no-more">Star Wars Commander</span>.
-   </p>
-<h2>
-Clan War Strategy
-</h2>
-<h5>
-  Members of TheFlyingSabers clan on Clash of Clans, feel free to copy and paste the following strategy.
-</h5>
+    <p>
+      This is the first place <span class="username">Booyahboy</span> made
+      TheFlyingSabers after
+      <span class="no-more">Star Wars Commander</span> shut down. The clan's
+      leadership now lies in the hands of <span class="username">Hades</span>,
+      who was also part of TheFlyingSabers on
+      <span class="no-more">Star Wars Commander</span>.
+    </p>
+    <h2>Clan War Strategy</h2>
+    <h5>
+      Members of TheFlyingSabers clan on Clash of Clans, feel free to copy and
+      paste the following strategy.
+    </h5>
 
-<p>
-  During every Clan War, the battle day is divided into two phases. The first phase, the Assault Phase,
-  lasts from the beginning of the battle day until three hours until the battle day ends. During the Assault
-  Phase, all participants are required and expected to use their first
-  attack. (Any participants whose war preference is set to "out" are exempted from this rule, unless they
-  specifically requested they be included in the war. To those participants who will not be available during
-  a war, please comment in the chat beforehand that you will be unavailable.) The attacks in the Assault Phase 
-  must be used by a participant of a certain number against a person of the same number on the opposing team. 
-  For example, if Booyahboy was number sixteen, then he would be expected to attack number sixteen on the 
-  opposing team during the Assault Phase. This rule is always subject to change from war to war, so if you have any 
-  questions, please post them in the chat. At the twenty-one hour mark (meaning there are three hours left in the battle day),
-  the Cleanup Phase begins. During this three-hour period, everyone is free to use their second attack against any 
- player on the opposing team. Participants are not required to use their second attack, but most are expected to.
- If you have any questions at all about this strategy, please post them in the chat, and Booyahboy and others will
- be happy to answer them. 
-</p>
+    <p>
+      During every Clan War, the battle day is divided into two phases. The
+      first phase, the Assault Phase, lasts from the beginning of the battle day
+      until five hours until the battle day ends. During the Assault Phase, all
+      participants are required and expected to use their first attack. (Any
+      participants whose war preference is set to "out" are exempted from this
+      rule, unless they specifically requested they be included in the war. To
+      those participants who will not be available during a war, please comment
+      in the chat beforehand that you will be unavailable.) The attacks in the
+      Assault Phase must be used by a participant of a certain number against a
+      person of the same number on the opposing team. For example, if Booyahboy
+      was number sixteen, then he would be expected to attack number sixteen on
+      the opposing team during the Assault Phase. This rule is always subject to
+      change from war to war, so if you have any questions, please post them in
+      the chat. At the twenty-one hour mark (meaning there are five hours left
+      in the battle day), the Cleanup Phase begins. During this five-hour
+      period, everyone is free to use their second attack against any player on
+      the opposing team. Participants are not required to use their second
+      attack, but most are expected to. If you have any questions at all about
+      this strategy, please post them in the chat, and
+      <span class="username">Booyahboy</span> and others will be happy to answer
+      them.
+    </p>
+    <table id='csvTable'>
+      <thead></thead>
+      <tbody></tbody>
+    </table>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.11/jquery.csv.min.js"
+      integrity="sha512-Y8iWYJDo6HiTo5xtml1g4QqHtl/PO1w+dmUpQfQSOTqKNsMhExfyPN2ncNAe9JuJUSKzwK/b6oaNPop4MXzkwg=="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="site.js"></script>
+    <script type="text/javascript">
+      window.csvToTable("#csvTable", "ClashofClans.csv");
+    </script>
+  </body>
+</html>
