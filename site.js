@@ -1,6 +1,6 @@
 function csvToTable(tableSelector, csvPath) {
-  const thead = $(tableSelector + " > thead")[0];
-  const tbody = $(tableSelector + " > tbody")[0];
+  const thead = jQuery(tableSelector + " > thead")[0];
+  const tbody = jQuery(tableSelector + " > tbody")[0];
   jQuery.get({
     url: csvPath,
     success: function (response) {
